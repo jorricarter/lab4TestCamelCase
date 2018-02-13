@@ -1,3 +1,7 @@
+def main():
+    print(camelcase(input("Enter a sentence and I will convert it to camelCase.\n")))
+
+
 def camelcase(string):
     # separate by word
     # found .title @stackoverflow while looking for way to make all lowercase
@@ -7,3 +11,8 @@ def camelcase(string):
     # join words into single word
     new_name = ''.join(word_list)
     return new_name
+
+
+if __name__ == "__main__":
+    main()
+
