@@ -14,7 +14,7 @@ class TestCamelCase(unittest.TestCase):
 
     def test_camel_case_spaces(self):
 
-        self.assertEqual('helloWorld', camelcase.camelcase("HelloWorld"))
+        self.assertEqual('helloworld', camelcase.camelcase("HelloWorld"))
 
         self.assertEqual('helloWorldHowAreYou', camelcase.camelcase("Hello world how are you"))
 
